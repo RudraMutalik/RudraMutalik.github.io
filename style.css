@@ -642,6 +642,54 @@
   overflow-wrap: anywhere;
 }
 
+/* Recent updates connect the work above with the invitation to get in touch. */
+.pf-updates {
+  border-top: 1px solid var(--pf-line);
+  border-bottom: 0;
+}
+
+.pf-updates-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin-bottom: 24px;
+}
+
+.pf-updates-header .pf-section-heading {
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.pf-updates-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.portfolio .pf-updates-link {
+  color: var(--pf-blue);
+}
+
+.pf-updates-link:hover {
+  text-decoration: underline;
+}
+
+.pf-updates-feed {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.pf-updates-feed iframe {
+  max-width: 100%;
+}
+
 /* Contact and social links. */
 .pf-contact {
   display: grid;
